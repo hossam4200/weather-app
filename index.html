@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is my a weather app">
+    <meta name="keywords" content="Weather, App, Forecast">
+    <meta name="author" content="Hossam Adel">
+    <title>Weather App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Weather Forecast</h1>
+        <input type="text" id="cityInput" placeholder="Enter city name">
+        <button id="searchBtn">Search</button>
+        <div class="error" id="errorMsg"></div>
+        <div class="weather-info" id="weatherInfo">
+            <h2 id="location"></h2>
+            <img id="weatherIcon" class="icon" src="" alt="Weather icon">
+            <p id="temperature"></p>
+            <p id="description"></p>
+            <div class="weather-details">
+                <div class="detail">
+                    <h4>Feels Like</h4>
+                    <p id="feelsLike"></p>
+                </div>
+                <div class="detail">
+                    <h4>Humidity</h4>
+                    <p id="humidity"></p>
+                </div>
+                <div class="detail">
+                    <h4>Wind Speed</h4>
+                    <p id="windSpeed"></p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="main .js"></script>
+</body>
+</html>
